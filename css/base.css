@@ -1,0 +1,192 @@
+html, body {
+    margin:0;
+    padding:0;
+    font-family: "Lucida Grande", Verdana;
+    font-size: 0.9em;
+    text-align: center;
+    background-color:#F2F2F2;
+}
+
+input, select {
+    font-size:0.9em;
+}
+
+table {
+    margin-top:-10px;
+    margin-left:7px;
+}
+
+h4 {
+    font-size:1.1em;
+    text-decoration:none;
+    font-weight:normal;
+    color:#23A4FF;
+}
+
+a {
+    color:#23A4FF;
+}
+
+#container {
+    width: 1000px;
+    height: 600px;
+    margin:0 auto;
+    position:relative;
+}
+
+#left-container, 
+#right-container, 
+#center-container {
+    height:600px;
+    position:absolute;
+    top:0;
+}
+
+#left-container, #right-container {
+    width:400px;
+    color:#686c70;
+    text-align: left;
+    overflow: auto;
+    background-color:#fff;
+    background-repeat:no-repeat;
+    border-bottom:1px solid #ddd;
+}
+
+#left-container {
+    left:0;
+    background-image:url('col2.png');
+    background-position:center right;
+    border-left:1px solid #ddd;
+    
+}
+
+#right-container {
+    right:0;
+    background-image:url('col1.png');
+    background-position:center left;
+    border-right:1px solid #ddd;
+}
+
+#right-container h4{
+    text-indent:8px;
+}
+
+#center-container {
+    width:600px;
+/*
+    left:100px;
+*/
+    background-color:#1a1a1a;
+    color:#ccc;
+}
+
+#header-container {
+    color:#ccc;
+/*
+    background-color:#1a1a1a;
+*/
+    border:1px solid #ddd;
+}
+
+.text {
+    margin: 7px;
+}
+
+#inner-details {
+    font-size:0.8em;
+    list-style:none;
+    margin:7px;
+}
+
+#log {
+    position:absolute;
+    top:10px;
+    font-size:1.0em;
+    font-weight:bold;
+    color:#23A4FF;
+}
+
+
+#infovis {
+    position:relative;
+    width:600px;
+    height:600px;
+    margin:auto;
+    overflow:hidden;
+}
+
+
+
+/* CSS added */
+form {
+margin:0;
+padding:0;
+}
+
+button {
+font-size:11px;
+font-weight:normal;
+}
+
+label {
+cursor:pointer;
+}
+
+
+
+
+#search_wrap {
+	display: none;
+	}
+	
+#wrap {
+	overflow: hidden;
+	}	
+
+#title_section h3 label {
+	font-size: 1em;
+	}
+
+#search_result, #advsearch_result {
+	margin: 0;
+	padding: 4px 10px 7px 10px;
+	border: 1px solid #e1e1e1;
+	background-color: #efefef;
+	background-position: bottom;
+	background-repeat: repeat-x;
+}
+
+#search_result input, #advsearch_result input {
+	font-size: 14px;
+	letter-spacing: normal;
+	}
+
+#search_result .standard_form, #advsearch_result .standard_form {
+	overflow: hidden;
+	}
+	
+#did_you_mean {
+	color: #ee0000;
+	font-weight: bold;
+	margin-top: 7px;
+	margin-left: 10px;
+	}
+		
+	
+#search_web_form input {
+	width: 300px;
+	font-size: 13px;
+	padding: 2px;
+	display: block;
+	margin-bottom: 5px;
+	}
+
+#product_search_no_matches #search_web {
+	margin-top: 0;
+	}
+	
+.error_message {
+	display: block;
+	color: #ee0000;
+	font-weight: bold;
+	}	
