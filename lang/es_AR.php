@@ -13,9 +13,9 @@ $message['NB'] = "Nota bibliográfica" ;
 $message['NP'] = "Nota personal" ;
 
 // descriptive message
-$message['posted'] = "Nota bibliográfica" ;
-$message['about'] = "Nota histórica" ;
-$message['searchExpresion'] = "Nota histórica" ;
-$message['suggestedSearchTerm'] = "Nota personal" ;
+$message['posted'] = "publicado" ;
+$message['about'] = "Acerca" ;
+$message['searchExpresion'] = "Expresión de búsqueda" ;
+$message['suggestedSearchTerm'] = "Término de búsqueda sugerido" ;
 
 ?>
