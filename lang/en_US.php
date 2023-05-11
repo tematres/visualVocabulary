@@ -24,7 +24,7 @@ $message['NP'] = "Personal note" ;
 // descriptive message
 $message['posted'] = "Bibliographic note" ;
 $message['about'] = "About" ;
-$message['searchExpresion'] = "Search expresion" ;
+$message['searchExpresion'] = "Search expression" ;
 $message['suggestedSearchTerm'] = "Did you mean" ;
 $message['relatedResources'] = "Related resources";
 
